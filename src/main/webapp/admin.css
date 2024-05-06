@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply gradient background */
+body {
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+  color: #fff;
+  font-family: Arial, sans-serif;
+  transition: all 0.3s ease;
+}
+
+/* Header styles */
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/* Main styles */
+main {
+  padding: 20px;
+}
+
+/* Hero section */
+.hero {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero h2 {
+  font-size: 1.5em;
+}
+
+/* Event form styles */
+.event-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.event-form form {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.event-form label,
+.event-form input,
+.event-form select,
+.event-form textarea,
+.event-form button {
+  display: block;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.event-form input,
+.event-form select,
+.event-form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.event-form textarea {
+  resize: vertical;
+}
+
+.event-form button {
+  padding: 10px 20px;
+  background-color: #573b8a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.event-form button:hover {
+  background-color: #45a049;
+}
+
+/* Form labels */
+.event-form label {
+  font-weight: bold;
+}
+
+/* Form select */
+.event-form select {
+  appearance: none;
+}
+
+/* Form input placeholders */
+.event-form input::placeholder,
+.event-form textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Form input focus */
+.event-form input:focus,
+.event-form select:focus,
+.event-form textarea:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Form button hover */
+.event-form button:hover {
+  background-color: #357f41;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 600px) {
+  header h1 {
+    font-size: 1.5em;
+  }
+}
